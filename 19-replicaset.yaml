@@ -11,6 +11,8 @@ spec:
   replicas: 3
   selector:
     matchLabels:
+      project: roboshop
+      purpose: replicaset-demo
       component: frontend
   # pod definition
   template:
