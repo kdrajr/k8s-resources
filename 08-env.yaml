@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: env
+  labels:
+    purpose: env-demo
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.24
+    env:
+      - name: course
+        value: "kubernetes"
+      - name: concept
+        value: "environment variables"

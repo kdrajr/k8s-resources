@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: error-test
+  labels:
+    purpose: error-testing
+spec:
+  containers:
+  - name: nginx
+    image: nginxxxx
+  # - name: almalinux
+  #   image: almalinux:9
