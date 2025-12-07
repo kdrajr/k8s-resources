@@ -15,7 +15,6 @@ spec:
   # pod definition
   template:
     metadata:
-      name: frontend-replica
       labels:
         project: roboshop
         purpose: replicaset-demo
